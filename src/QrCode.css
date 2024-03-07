@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}.app-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 33%;
+    margin-top: 80px;
+    font-weight: 500;
+}
+h2{
+    color:#3498db ;
+    margin-left: 130px;
+}
+img{
+    width: 150px;
+    margin-left: 165px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.input-label{
+    font-size: 20px;
+    color: #3498db;
+    margin-top: 10px;
+}
+input{
+    padding: 10px;
+    border: 2px solid #555;
+    border-radius: 5px;
+    width: 450px;
+}
+.GenerateQRCode{
+    width: 200px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 2px solid ;
+    color: white;
+    background-color: rgb(44, 44, 170);
+    
+}
+.DownloadQRCode{
+    width: 200px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid;
+    color: white;
+    background-color: #27ae60;
+}
+footer{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: 600px;
+}
+footer span{
+    color: #3498db;
+}
